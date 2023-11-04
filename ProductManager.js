@@ -3,7 +3,6 @@ const path = require("path");
 
 class ProductManager {
   constructor(filePath) {
-    //editar filePath
     this.path = filePath;
     this.products = [];
     this.nextId = 1;
